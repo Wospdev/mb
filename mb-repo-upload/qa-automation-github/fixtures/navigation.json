@@ -1,0 +1,20 @@
+{
+  "expectedNavLabels": [
+    "Sign up",
+    "Log In",
+    "login",
+    "Trade",
+    "Markets",
+    "Spot",
+    "About"
+  ],
+  "navItemsMinCount": 1,
+  "destinations": {
+    "Trade": ["/trade", "/spot", "/markets"],
+    "Markets": ["/markets", "/trade"],
+    "Spot": ["/spot", "/trade"],
+    "About": ["/about", "/about-us"],
+    "Sign up": ["/register", "/signup", "/sign-up"],
+    "Log In": ["/login", "/signin"]
+  }
+}

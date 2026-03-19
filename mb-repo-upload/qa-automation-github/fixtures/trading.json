@@ -1,0 +1,10 @@
+{
+  "categories": ["All", "Favorites", "USDT", "BTC", "ETH"],
+  "expectedPairStructure": {
+    "hasSymbol": true,
+    "hasPrice": true,
+    "hasChange": true
+  },
+  "minPairsToDisplay": 1,
+  "samplePairs": ["BTC/USDT", "ETH/USDT", "XRP/USDT"]
+}

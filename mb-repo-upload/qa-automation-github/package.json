@@ -1,0 +1,25 @@
+{
+  "name": "qa-automation-multibank",
+  "version": "1.0.0",
+  "description": "Production-grade QA automation framework for MultiBank trading platform",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:unit": "vitest run",
+    "report": "playwright show-report",
+    "lint": "echo 'Lint: add eslint when needed'"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.15.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
