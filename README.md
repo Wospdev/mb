@@ -58,5 +58,8 @@ Node.js — runtime
 About the challenge
 The goal was to build a solid, maintainable E2E test suite from scratch. That meant structuring tests with the Page Object Model to keep things readable, making sure tests are reliable enough to trust in CI, and keeping the setup simple enough that anyone can clone and run it without headaches.
 
+Check tests dashboard: https://wospdev.github.io/qareports/qa-automation-report/
+
+
 Author
 Wosp
